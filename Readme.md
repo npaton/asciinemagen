@@ -8,7 +8,16 @@ distinction for asciinema).
 You can control which timing, prompts, and asciinema metadata with flags, see
 `asciinemagen --help` for the details.
 
-# Example Usage
+## Install
+
+At the moment, you'll need to have Go installed, and use `go get` to pull
+and build the binary:
+
+```sh
+go get github.com/npaton/asciinemagen
+```
+
+## Example Usage
 
 ```sh
 > echo "> date\nTue Mar 13 10:57:27 EST 2018" | asciinemagen --title "Example" > example.cast
